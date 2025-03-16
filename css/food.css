@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('/images/dublin3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav :hover {
+    color: #a980f0;
+}
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: whitesmoke;
+    color: black;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th,td {
+    padding: 15px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+th {
+    background: black;
+    color: white;
+}
+
+.restaurant-img {
+    width: 220px;
+    height: 230px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    margin-top: auto;
+}

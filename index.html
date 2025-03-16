@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Dublin</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="place.html">Itenaries</a></li>
+                <li><a href="restaurant.html">Best Restaurants</a></li>
+                <li><a href="attractions.html">Top Attractions</a></li>
+                <li><a href="recrationl.html">Recrational</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>Calculate Your Fare</h2>
+            <label for="age">Enter your age:</label>
+            <input type="number" id="age" placeholder="Enter age" />
+            <button onclick="checkFare()">Check Fare</button>
+            <p id="fareOutput"></p>
+        </section>
+        <section class="card">
+            <h2>Food Preference</h2>
+            <label for="userName">Your Name:</label>
+            <input type="text" id="userName" placeholder="Enter your name" />
+            <label for="foodType">Favorite Cuisine:</label>
+            <input type="text" id="foodType" placeholder="Enter cuisine" />
+            <button onclick="displayFoodChoice()">Submit</button>
+            <textarea id="foodOutput" readonly></textarea>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Dublin Guide</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
