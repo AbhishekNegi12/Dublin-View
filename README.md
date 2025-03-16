@@ -38,6 +38,4 @@ Create a website listing things to do and places to eat around Dublin with the f
   - The function should be run when a button is clicked.  
 
 ---
-
-## **❤️ Made with Love**
 <p align="center">Made with ❤️ by Abhishek</p>
