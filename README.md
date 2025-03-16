@@ -36,3 +36,8 @@ Create a website listing things to do and places to eat around Dublin with the f
 - On the **home page**, create **two input boxes** to allow users to enter their **name** and their **desired food cuisine**.  
   - The output should appear in a **text area** showing the **entered name and food cuisine**.  
   - The function should be run when a button is clicked.  
+
+---
+
+## **❤️ Made with Love**
+<p align="center">Made with ❤️ by Abhishek</p>
